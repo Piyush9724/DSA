@@ -1,5 +1,8 @@
+package Arrays.SmallerandLarger;
+
 import java.util.*;
-class SmallerAndLarger {
+
+public class SmallerandLarger {
     public static void main(String[] args) {
         //int[] arr = {1, 2, 8, 10, 11, 12, 19};
         int[] arr ={4,4,5,5,6};
@@ -9,7 +12,7 @@ class SmallerAndLarger {
         // int res = binarySearch(arr, 0, 6, 23);
         // System.out.println(res);
     }
-   public static int binarySearch(int arr[], int l, int r, int x) {
+    public static int binarySearch(int arr[], int l, int r, int x) {
         if ( r < l) {
             return -1;
         }
@@ -23,7 +26,11 @@ class SmallerAndLarger {
             return binarySearch(arr,mid+1,r,x);
         }
     }
+
 }
+
+
+
 class Solve {
     private static int z = 0;
     int[] getMoreAndLess(int[] arr, int n, int x) {
