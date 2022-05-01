@@ -4,8 +4,8 @@ public class PrimeNumber {
     public static void main(String[] args) {
          System.out.println(isPrime(35));
          System.out.println(isPrimeEfficient(35));
-         int count = 100;
-         int i = 2;
+        //  int count = 100;
+        //  int i = 2;
         //  while(count > 1){
         //      if( isPrimeEfficient(i)) {
         //          System.out.print(i+", ");
