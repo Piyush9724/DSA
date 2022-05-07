@@ -1,8 +1,5 @@
 package Recursion;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Permutations {
     public static void main(String[] args) {
         permutations("ABC", 0);
@@ -26,7 +23,7 @@ public class Permutations {
        char temp = res[i];
        res[i] =  res[j];
        res[j] = temp;
-       s = s.copyValueOf(res);
+       s = String.copyValueOf(res);
        return s;
     }
 }
