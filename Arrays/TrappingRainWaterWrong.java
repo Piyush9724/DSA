@@ -16,6 +16,7 @@ package Arrays;
                 arr[i] = sc.nextInt();
             }
             //System.out.println(TrappingRainWaterSolutionWrong.trappingRainWater(arr, n));
+            sc.close();
         }
     }
     
