@@ -4,8 +4,8 @@ public class LowerUpperBounds {
     public static void main(String[] args) {
         int[] arr = {1, 2, 8, 8,8,8,8,10, 11, 12, 19,19};
         //int[] arr ={4,4,5,5,6};
-        // System.out.println(bs_lower_bound(arr, 12, 8));
-        // System.out.println(bs_upper_bound(arr, 12, 8));
+        // System.out.println(bs_lower_bound(arr, arr.length, 3));
+        // System.out.println(bs_upper_bound(arr, arr.length, 8));
         Solve1 s = new Solve1();
         int res[] = s.getMoreAndLess(arr, 12, 19);
         System.out.println(res[0]+" "+res[1]);
