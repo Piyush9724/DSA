@@ -2,8 +2,7 @@ package Arrays;
 // { Driver Code Starts
     import java.io.*;
     import java.util.*;
-    import java.util.stream.Collectors;
-    import java.lang.*;
+
     
     
     public class TrappingRainWaterWrong {
