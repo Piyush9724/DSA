@@ -11,6 +11,7 @@ public class MaximumSubArray {
             arr[i] = sc.nextInt();
         } 
         System.out.println(FindMaxSubArraySum.maxSubarraySum(arr, n));
+        sc.close();
     }
 
 }
