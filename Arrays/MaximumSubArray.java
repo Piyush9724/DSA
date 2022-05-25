@@ -18,7 +18,7 @@ public class MaximumSubArray {
 
 class FindMaxSubArraySum {
 
-
+    //Kadane's Algorithm
     static long maxSubarraySum(int arr[], int n){
         // Your code herelong maxSum = arr[0];
         long maxSum = Long.MIN_VALUE;
