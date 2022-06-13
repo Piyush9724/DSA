@@ -30,7 +30,7 @@ class AllocateMinimumPagesSolution {
         if( N < M) return -1;
         for(int i=0;i<N;i++)
             sum+=A[i];
-        int l =0, r = sum;
+        int l =A[N-1], r = sum;  // l =  MAX VALUE in Array
         while(l <= r ){
             int m = (l + r) /2;
             if(checkPossibility(A, N,M,l,r,m)){
@@ -44,7 +44,8 @@ class AllocateMinimumPagesSolution {
     }
 
 
-    public static boolean checkPossibility(int A[], int N, int M, int l, int r, int x){
+    public static boolean checkPossibility(int A[], int N, int M,
+                                             int l, int r, int x){
         int curr_sum = 0, count =1;
         for(int i=0;i<N;i++){
             if( A[i] > x) return false;
