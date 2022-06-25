@@ -9,7 +9,7 @@ public class P5_CountingSort {
         int t = sc.nextInt();
 
         while (t-- > 0) {
-            long n = sc.nextLong();
+            sc.nextLong();
             String arr = "";
             arr = sc.next();
             System.out.println(CountingSort.countSort(arr));
