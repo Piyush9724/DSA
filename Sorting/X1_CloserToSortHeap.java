@@ -3,7 +3,7 @@ package Sorting;
 // { Driver Code Starts
 import java.util.*;
 
-public class X1_Heap {
+public class X1_CloserToSortHeap {
 
     void printArray(int arr[], int n) {
         // int n = arr.length;
@@ -14,7 +14,7 @@ public class X1_Heap {
 
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
-        X1_Heap hs = new X1_Heap();
+        X1_CloserToSortHeap hs = new X1_CloserToSortHeap();
         int arr[] = new int[1000000];
         int T = sc.nextInt();
         while (T > 0) {
