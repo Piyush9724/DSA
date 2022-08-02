@@ -37,6 +37,27 @@ class NaivePatternSearchSolution {
         }
         return count; 
     }
+
+    int optimisedSearch(String text, String pat){
+        int count = 0;
+        int m = pat.length();
+        int n = text.length();
+        for(int i=0;i<=n-m; ){
+            int j;
+            for(j = 0;j<m;j++)
+                if(pat.charAt(j) != text.charAt(i+j))
+                    break;
+            if(j == m){
+                System.out.print("At :"+i+" ");
+                count++;
+            }
+            if(j == 0)
+                i++;
+            else
+                i = (i + j);
+        }
+        return count;
+    }
 };
 
 
